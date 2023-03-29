@@ -4,6 +4,7 @@ public class Main {
 
         intPrint intP  = new intPrint();
         intP.print();
+        System.out.printf("¬¬¬<Returned value " + intP.a + ">¬¬¬");
 
     }
 }
