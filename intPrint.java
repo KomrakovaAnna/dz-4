@@ -1,7 +1,8 @@
 public class intPrint {
     int a = 1;
     public int print() {
-        System.out.println("---< Field value is" +" "+ a + ">---");
+        String printing = String.format("---<%d>---", a);
+        System.out.println(printing);
         return a;
     }
 }

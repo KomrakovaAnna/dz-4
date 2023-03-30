@@ -4,6 +4,7 @@ public class Main {
         intPrint intP  = new intPrint();
         intP.print();
         int b = intP.a;
-        System.out.println("~~~<Returned value " + b + ">~~~");
+        String printReturned = String.format("~~~<%d>>~~~", b);
+        System.out.println(printReturned);
     }
 }
